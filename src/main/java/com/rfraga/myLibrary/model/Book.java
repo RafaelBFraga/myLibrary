@@ -4,9 +4,9 @@ public class Book {
 
     private String title;
     private String author;
-    private int id;
+    private String id;
 
-    public Book(String title, String author, int id){
+    public Book(String title, String author, String id){
         this.title = title;
         this.author = author;
         this.id = id;
@@ -20,7 +20,7 @@ public class Book {
         return author;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
